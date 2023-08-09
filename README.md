@@ -5,6 +5,8 @@
 
 3. emotion_radar.py
    - 將飯店的情緒分析json檔匯入，並畫成情緒雷達圖
+     
+ ![image](https://github.com/ellen923121/sentiment_analysis/blob/main/img/radar_example.png)
 
 3. per_emotion_top_n.py
    - 篩選出某情緒最高或最低的飯店前n名 
