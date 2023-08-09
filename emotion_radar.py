@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 plt.rc('font', family='Microsoft JhengHei')
 
-with open('./booking_hotel_emotion_averages.json', "r", encoding='utf_8_sig') as file:
+with open('./json/booking_hotel_emotion_averages.json', "r", encoding='utf_8_sig') as file:
     sentiment_data = json.load(file)
   
 

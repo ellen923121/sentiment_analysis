@@ -112,7 +112,7 @@ import json
 
     
 # 寫入 JSON 檔案
-with open('booking_hotel_emotion_averages.json', 'w', encoding='utf_8_sig') as file:
+with open('./json/booking_hotel_emotion_averages.json', 'w', encoding='utf_8_sig') as file:
     json.dump(hotel_emotion_averages, file, indent=4, ensure_ascii=False)
 
 file_path = './booking_comments_分詞_情緒分析.csv'
